@@ -47,8 +47,8 @@ export const cv = async (args: string[]): Promise<string> => {
 export const donate = async (args: string[]): Promise<string> => {
   return `thank you for your interest.
 here are the ways you can support my work:
-- <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.paypal}" target="_blank">paypal</a></u>
-- <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.patreon}" target="_blank">patreon</a></u>
+- <u><a class="text-light-blue dark:text-dark-blue unet="_blank">paypal</a></u>
+- <u><a class="text-light-blue dark:text-dark-blue underline" hreftarget="_blank">patreon</a></u>
 `;
 };
 
@@ -99,31 +99,31 @@ export const banner = (args?: string[]): string => {
   return `
 
 
-  #
-  #
-  #  KKKKKKKKK    KKKKKKKMMMMMMMM               MMMMMMMM   SSSSSSSSSSSSSSS
-  #  K:::::::K    K:::::KM:::::::M             M:::::::M SS:::::::::::::::S
-  #  K:::::::K    K:::::KM::::::::M           M::::::::MS:::::SSSSSS::::::S
-  #  K:::::::K   K::::::KM:::::::::M         M:::::::::MS:::::S     SSSSSSS
-  #  KK::::::K  K:::::KKKM::::::::::M       M::::::::::MS:::::S
-  #    K:::::K K:::::K   M:::::::::::M     M:::::::::::MS:::::S
-  #    K::::::K:::::K    M:::::::M::::M   M::::M:::::::M S::::SSSS
-  #    K:::::::::::K     M::::::M M::::M M::::M M::::::M  SS::::::SSSSS
-  #    K:::::::::::K     M::::::M  M::::M::::M  M::::::M    SSS::::::::SS
-  #    K::::::K:::::K    M::::::M   M:::::::M   M::::::M       SSSSSS::::S
-  #    K:::::K K:::::K   M::::::M    M:::::M    M::::::M            S:::::S
-  #  KK::::::K  K:::::KKKM::::::M     MMMMM     M::::::M            S:::::S
-  #  K:::::::K   K::::::KM::::::M               M::::::MSSSSSSS     S:::::S
-  #  K:::::::K    K:::::KM::::::M               M::::::MS::::::SSSSSS:::::S
-  #  K:::::::K    K:::::KM::::::M               M::::::MS:::::::::::::::SS
-  #  KKKKKKKKK    KKKKKKKMMMMMMMM               MMMMMMMM SSSSSSSSSSSSSSS
-  #
-  #
-  #
-  #
-  #
-  #
-  #
+
+
+    KKKKKKKKK    KKKKKKKMMMMMMMM               MMMMMMMM   SSSSSSSSSSSSSSS
+    K:::::::K    K:::::KM:::::::M             M:::::::M SS:::::::::::::::S
+    K:::::::K    K:::::KM::::::::M           M::::::::MS:::::SSSSSS::::::S
+    K:::::::K   K::::::KM:::::::::M         M:::::::::MS:::::S     SSSSSSS
+    KK::::::K  K:::::KKKM::::::::::M       M::::::::::MS:::::S
+      K:::::K K:::::K   M:::::::::::M     M:::::::::::MS:::::S
+      K::::::K:::::K    M:::::::M::::M   M::::M:::::::M S::::SSSS
+      K:::::::::::K     M::::::M M::::M M::::M M::::::M  SS::::::SSSSS
+      K:::::::::::K     M::::::M  M::::M::::M  M::::::M    SSS::::::::SS
+      K::::::K:::::K    M::::::M   M:::::::M   M::::::M       SSSSSS::::S
+      K:::::K K:::::K   M::::::M    M:::::M    M::::::M            S:::::S
+    KK::::::K  K:::::KKKM::::::M     MMMMM     M::::::M            S:::::S
+    K:::::::K   K::::::KM::::::M               M::::::MSSSSSSS     S:::::S
+    K:::::::K    K:::::KM::::::M               M::::::MS::::::SSSSSS:::::S
+    K:::::::K    K:::::KM::::::M               M::::::MS:::::::::::::::SS
+    KKKKKKKKK    KKKKKKKMMMMMMMM               MMMMMMMM SSSSSSSSSSSSSSS
+
+
+
+
+
+
+
 
 
 
