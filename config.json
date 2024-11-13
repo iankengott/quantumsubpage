@@ -2,14 +2,14 @@
   "readmeUrl": "https://raw.githubusercontent.com/cveinnt/cveinnt/master/README.md",
   "title": "q-calc",
   "name": "ian",
-  "ascii": "",
+  "ascii": "q-calc",
   "social": {
-    "github": "github",
-    "linkedin": "linkedin"
+    "github": "",
+    "linkedin": ""
   },
-  "email": "contact@email.com",
+  "email": "iankengott38@gmail.com",
   "ps1_hostname": "liveterm",
-  "ps1_username": "visitor",
+  "ps1_username": "q-calc-user",
   "repo": "https://github.com/Cveinnt/LiveTerm",
   "resume_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf",
   "donate_urls": {
