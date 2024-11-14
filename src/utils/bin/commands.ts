@@ -28,6 +28,11 @@ export const repo = async (args: string[]): Promise<string> => {
   return 'Opening Github repository...';
 };
 
+//add funtion
+export const Qadd = async (args: string[]): Promise<string> => {
+return 'hi';
+};
+
 // About
 export const about = async (args: string[]): Promise<string> => {
   return `Hi, I am ${config.name}. 
