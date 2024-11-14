@@ -30,7 +30,7 @@ Type 'sumfetch' to display summary.
 
 //add funtion
 export const qadd = async (args: string[]): Promise<string> => {
-return 'hi';
+return 'QADD stands for Quantumm Addition.';
 };
 
 // About
