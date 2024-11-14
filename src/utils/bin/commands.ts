@@ -122,7 +122,7 @@ if you want to help, you can type 'donate'.`;
 //  return new Date().toString();
 //};
 
-export const vi = async (args: string[]): Promise<string> => {
+/*export const vi = async (args: string[]): Promise<string> => {
   return `woah, you still use 'vi'? just try 'vim'.`;
 };
 
@@ -137,7 +137,7 @@ export const nvim = async (args: string[]): Promise<string> => {
 export const emacs = async (args?: string[]): Promise<string> => {
   return `you know what? just use vscode.`;
 };
-
+*/
 export const sudo = async (args?: string[]): Promise<string> => {
   window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank'); // ...I'm sorry
   return `Permission denied: with little power comes... no responsibility? `;
