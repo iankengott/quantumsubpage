@@ -30,8 +30,74 @@ Type 'sumfetch' to display summary.
 
 //add funtion
 export const qadd = async (args: string[]): Promise<string> => {
-return 'QADD stands for Quantumm Addition.';
+  if (args.length < 2) {
+    return 'Please provide two numbers to add.';
+  }
+  const num1 = parseFloat(args[0]);
+  const num2 = parseFloat(args[1]);
+  if (isNaN(num1) || isNaN(num2)) {
+    return 'Invalid input. Please enter two numbers.';
+  }
+  const result = num1 + num2;
+  return `The sum of ${num1} and ${num2} is ${result}.`;
 };
+
+//subtract funtion
+export const qsub = async (args: string[]): Promise<string> => {
+  if (args.length < 2) {
+    return 'Please provide two numbers to subtract.';
+  }
+  const num1 = parseFloat(args[0]);
+  const num2 = parseFloat(args[1]);
+  if (isNaN(num1) || isNaN(num2)) {
+    return 'Invalid input. Please enter two numbers.';
+  }
+  const result = num1 - num2;
+  return `The diff of ${num1} and ${num2} is ${result}.`;
+};
+
+//divide funtion
+export const qdiv = async (args: string[]): Promise<string> => {
+  if (args.length < 2) {
+    return 'Please provide two numbers to divide.';
+  }
+  const num1 = parseFloat(args[0]);
+  const num2 = parseFloat(args[1]);
+  if (isNaN(num1) || isNaN(num2)) {
+    return 'Invalid input. Please enter two numbers.';
+  }
+  const result = num1 / num2;
+  return `The divistion of ${num1} and ${num2} is ${result}.`;
+};
+
+
+//multiply funtion
+export const qmult = async (args: string[]): Promise<string> => {
+  if (args.length < 2) {
+    return 'Please provide two numbers to muliply.';
+  }
+  const num1 = parseFloat(args[0]);
+  const num2 = parseFloat(args[1]);
+  if (isNaN(num1) || isNaN(num2)) {
+    return 'Invalid input. Please enter two numbers.';
+  }
+  const result = num1 * num2;
+  return `The product of ${num1} and ${num2} is ${result}.`;
+};
+
+//factor funtion
+export const qfactor = async (args: string[]): Promise<string> => {
+  if (args.length < 1) {
+    return 'Please provide one number to factor.';
+  }
+  const num1 = parseFloat(args[0]);
+  return `The factor of ${num1} is $$$.`;
+};
+
+
+
+
+
 
 // About
 export const about = async (args: string[]): Promise<string> => {
