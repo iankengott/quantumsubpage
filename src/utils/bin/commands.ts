@@ -29,7 +29,7 @@ export const repo = async (args: string[]): Promise<string> => {
 };
 
 //add funtion
-export const Qadd = async (args: string[]): Promise<string> => {
+export const qadd = async (args: string[]): Promise<string> => {
 return 'hi';
 };
 
