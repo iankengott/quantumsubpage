@@ -39,14 +39,14 @@ export const qadd = async (args: string[]): Promise<string> => {
     return 'Invalid input. Please enter two numbers.';
   }
   await new Promise(r => setTimeout(r, 300));
-let msg = "Calculating";
+let msg = "connecting";
 for (let i = 0; i < 3; i++) {
   msg += ".";
   await new Promise(r => setTimeout(r, 300)); 
 }
 
   const result = num1 + num2;
-  return `Api acces has failed, result is classical.\nThe sum of ${num1} and ${num2} is ${result}.`;
+  return `${msg}\nApi acces has failed, result is classical.\nThe sum of ${num1} and ${num2} is ${result}.`;
 };
 
 //subtract funtion
@@ -59,8 +59,15 @@ export const qsub = async (args: string[]): Promise<string> => {
   if (isNaN(num1) || isNaN(num2)) {
     return 'Invalid input. Please enter two numbers.';
   }
+  await new Promise(r => setTimeout(r, 300));
+let msg = "connecting";
+for (let i = 0; i < 3; i++) {
+  msg += ".";
+  await new Promise(r => setTimeout(r, 300)); 
+}
+
   const result = num1 - num2;
-  return `Api acces has failed, result is classical.\nThe diff of ${num1} and ${num2} is ${result}.`;
+  return `${msg}\nApi acces has failed, result is classical.\nThe diff of ${num1} and ${num2} is ${result}.`;
 };
 
 //divide funtion
@@ -73,8 +80,15 @@ export const qdiv = async (args: string[]): Promise<string> => {
   if (isNaN(num1) || isNaN(num2)) {
     return 'Invalid input. Please enter two numbers.';
   }
+  await new Promise(r => setTimeout(r, 300));
+let msg = "connecting";
+for (let i = 0; i < 3; i++) {
+  msg += ".";
+  await new Promise(r => setTimeout(r, 300)); 
+}
+
   const result = num1 / num2;
-  return `Api acces has failed, result is classical.\nThe divistion of ${num1} and ${num2} is ${result}.`;
+  return `${msg}\nApi acces has failed, result is classical.\nThe divistion of ${num1} and ${num2} is ${result}.`;
 };
 
 
@@ -88,8 +102,15 @@ export const qmult = async (args: string[]): Promise<string> => {
   if (isNaN(num1) || isNaN(num2)) {
     return 'Invalid input. Please enter two numbers.';
   }
+  await new Promise(r => setTimeout(r, 300));
+let msg = "connecting";
+for (let i = 0; i < 3; i++) {
+  msg += ".";
+  await new Promise(r => setTimeout(r, 300)); 
+}
+
   const result = num1 * num2;
-  return `Api acces has failed, result is classical.\nThe product of ${num1} and ${num2} is ${result}.`;
+  return `${msg}\nApi acces has failed, result is classical.\nThe product of ${num1} and ${num2} is ${result}.`;
 };
 
 //factor funtion
@@ -97,8 +118,15 @@ export const qfactor = async (args: string[]): Promise<string> => {
   if (args.length < 1) {
     return 'Please provide one number to factor.';
   }
+  await new Promise(r => setTimeout(r, 300));
+let msg = "connecting";
+for (let i = 0; i < 3; i++) {
+  msg += ".";
+  await new Promise(r => setTimeout(r, 300)); 
+}
+
   const num1 = parseFloat(args[0]);
-  return `Api acces has failed, result is not calculable classicly.`;
+  return `${msg}\nApi acces has failed, result is not calculable classicly.`;
 };
 
 
