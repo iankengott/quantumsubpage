@@ -39,7 +39,7 @@ export const qadd = async (args: string[]): Promise<string> => {
     return 'Invalid input. Please enter two numbers.';
   }
   const result = num1 + num2;
-  return `The sum of ${num1} and ${num2} is ${result}.`;
+  return `Api acces has failed, result is classical.\nThe sum of ${num1} and ${num2} is ${result}.`;
 };
 
 //subtract funtion
@@ -53,7 +53,7 @@ export const qsub = async (args: string[]): Promise<string> => {
     return 'Invalid input. Please enter two numbers.';
   }
   const result = num1 - num2;
-  return `The diff of ${num1} and ${num2} is ${result}.`;
+  return `Api acces has failed, result is classical.\nThe diff of ${num1} and ${num2} is ${result}.`;
 };
 
 //divide funtion
@@ -67,7 +67,7 @@ export const qdiv = async (args: string[]): Promise<string> => {
     return 'Invalid input. Please enter two numbers.';
   }
   const result = num1 / num2;
-  return `The divistion of ${num1} and ${num2} is ${result}.`;
+  return `Api acces has failed, result is classical.\nThe divistion of ${num1} and ${num2} is ${result}.`;
 };
 
 
@@ -82,7 +82,7 @@ export const qmult = async (args: string[]): Promise<string> => {
     return 'Invalid input. Please enter two numbers.';
   }
   const result = num1 * num2;
-  return `The product of ${num1} and ${num2} is ${result}.`;
+  return `Api acces has failed, result is classical.\nThe product of ${num1} and ${num2} is ${result}.`;
 };
 
 //factor funtion
@@ -91,7 +91,7 @@ export const qfactor = async (args: string[]): Promise<string> => {
     return 'Please provide one number to factor.';
   }
   const num1 = parseFloat(args[0]);
-  return `The factor of ${num1} is $$$.`;
+  return `Api acces has failed, result is not calculable classicly.`;
 };
 
 
