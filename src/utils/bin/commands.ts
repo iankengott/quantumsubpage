@@ -38,6 +38,13 @@ export const qadd = async (args: string[]): Promise<string> => {
   if (isNaN(num1) || isNaN(num2)) {
     return 'Invalid input. Please enter two numbers.';
   }
+  await new Promise(r => setTimeout(r, 300));
+let msg = "Calculating";
+for (let i = 0; i < 3; i++) {
+  msg += ".";
+  await new Promise(r => setTimeout(r, 300)); 
+}
+
   const result = num1 + num2;
   return `Api acces has failed, result is classical.\nThe sum of ${num1} and ${num2} is ${result}.`;
 };
